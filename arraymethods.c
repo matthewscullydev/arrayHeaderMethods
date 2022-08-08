@@ -43,7 +43,7 @@ void removeE(int array[], int value){
 
     if(ret != -1){
 
-        for(int i = ret-1; i < arraysize; i++){
+        for(int i = ret; i < arraysize; i++){
 
             array[i] = array[i+1];
 

@@ -38,6 +38,11 @@ int main(){
     val = linearSearch(array, 12);
     printf("%d\n\n", val);
 
+
+    printf("\n seperate 3 \n\n");
+    removeE(array,12);
+    printArr(array);
+    
     return 0;
 }
 
